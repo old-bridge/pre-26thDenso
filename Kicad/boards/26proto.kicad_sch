@@ -7429,7 +7429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 104.14 251.46 0)
 			(effects
 				(font
@@ -7499,16 +7499,8 @@
 				(justify right)
 			)
 		)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 312.42 113.03 0)
-=======
-=======
->>>>>>> Stashed changes
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 151.13 109.22 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 105.41 254.762 90)
 			(effects
 				(font
@@ -7862,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 105.41 244.602 90)
 			(effects
 				(font
@@ -8589,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
+		(property "Footprint" ""
 			(at 172.72 241.3 0)
 			(effects
 				(font
@@ -8876,16 +8868,8 @@
 				(justify right)
 			)
 		)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 287.02 113.03 0)
-=======
-=======
->>>>>>> Stashed changes
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 125.73 109.22 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 105.41 242.062 90)
 			(effects
 				(font
@@ -9375,7 +9359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" ""
 			(at 297.18 193.04 0)
 			(effects
 				(font
@@ -9451,7 +9435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 387.35 229.87 0)
 			(effects
 				(font
@@ -11504,7 +11488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" ""
 			(at 41.91 104.14 0)
 			(effects
 				(font
@@ -11972,7 +11956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 344.17 231.14 0)
 			(effects
 				(font
@@ -12645,7 +12629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
+		(property "Footprint" "MOUDLE14P-SMD-2.54-21X17.8MM"
 			(at 27.94 36.83 0)
 			(effects
 				(font
@@ -12909,16 +12893,8 @@
 				(justify right)
 			)
 		)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 264.16 113.03 0)
-=======
-=======
->>>>>>> Stashed changes
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 102.87 109.22 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
