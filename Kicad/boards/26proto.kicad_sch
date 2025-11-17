@@ -7500,9 +7500,12 @@
 			)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 312.42 113.03 0)
 =======
+=======
+>>>>>>> Stashed changes
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 151.13 109.22 0)
 >>>>>>> Stashed changes
@@ -8874,9 +8877,12 @@
 			)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 287.02 113.03 0)
 =======
+=======
+>>>>>>> Stashed changes
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 125.73 109.22 0)
 >>>>>>> Stashed changes
@@ -12904,9 +12910,12 @@
 			)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 264.16 113.03 0)
 =======
+=======
+>>>>>>> Stashed changes
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 102.87 109.22 0)
 >>>>>>> Stashed changes
