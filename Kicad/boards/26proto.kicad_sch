@@ -7715,7 +7715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
 			(at 311.15 85.09 0)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "BNO085"
 			(at 119.38 189.2299 0)
 			(effects
 				(font
@@ -8515,7 +8515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
+		(property "Footprint" "footprints:MODULE_4754"
 			(at 116.84 186.69 0)
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3_pot"
 			(at 282.194 20.32 0)
 			(effects
 				(font
@@ -9206,7 +9206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
 			(at 285.75 85.09 0)
 			(effects
 				(font
@@ -9622,7 +9622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RS485_airdata"
 			(at 299.72 209.5499 0)
 			(effects
 				(font
@@ -9764,7 +9764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RE12A"
 			(at 299.72 195.5799 0)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
 			(at 297.18 193.04 0)
 			(effects
 				(font
@@ -9831,8 +9831,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ca262b7-7c81-4c37-a5ea-f7657bbf98de")
-		(property "Reference" "U10"
-			(at 384.556 235.712 90)
+		(property "Reference" "DPS310"
+			(at 389.89 219.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +9841,7 @@
 			)
 		)
 		(property "Value" "Adafruit DPS310"
-			(at 377.698 233.172 90)
+			(at 389.89 222.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9849,7 +9849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 389.89 218.44 0)
 			(effects
 				(font
@@ -9900,7 +9900,7 @@
 		(instances
 			(project ""
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475"
-					(reference "U10")
+					(reference "DPS310")
 					(unit 1)
 				)
 			)
@@ -10475,7 +10475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3_logger"
 			(at 41.148 192.532 0)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RS485_TFT"
 			(at 72.39 114.2999 0)
 			(effects
 				(font
@@ -11573,7 +11573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RS485_logger_2"
 			(at 119.38 201.9299 0)
 			(effects
 				(font
@@ -12312,7 +12312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "URM37"
 			(at 35.56 115.5699 0)
 			(effects
 				(font
@@ -12321,7 +12321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -12584,7 +12584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3_airdata"
 			(at 341.122 112.268 0)
 			(effects
 				(font
@@ -12770,7 +12770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1c4c74a-635b-4bd8-ba51-552d700bce90")
-		(property "Reference" "U8"
+		(property "Reference" "AS5600"
 			(at 355.6 222.2499 90)
 			(effects
 				(font
@@ -12788,7 +12788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 345.44 223.52 0)
 			(effects
 				(font
@@ -12836,7 +12836,7 @@
 		(instances
 			(project ""
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475"
-					(reference "U8")
+					(reference "AS5600")
 					(unit 1)
 				)
 			)
@@ -13519,7 +13519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3_TFT"
 			(at 19.812 14.478 0)
 			(effects
 				(font
@@ -13792,7 +13792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
 			(at 262.89 85.09 0)
 			(effects
 				(font
@@ -13990,7 +13990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RS485_logger"
 			(at 119.38 215.8999 0)
 			(effects
 				(font
