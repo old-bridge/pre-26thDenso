@@ -1,4 +1,4 @@
-25219533082903921
+25224824814218187
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101290,6 +101290,13 @@ MODULE_4754
 16
 16
 footprints
+MODULE_4754_without_holes
+
+
+0
+12
+12
+footprints
 XIAO-ESP32C3-SMD
 
 
@@ -101317,3 +101324,17 @@ XIAO_ESP32C3
 0
 14
 14
+footprints
+名称未設定
+
+
+0
+0
+0
+footprints
+名称未設定_1
+
+
+0
+0
+0
