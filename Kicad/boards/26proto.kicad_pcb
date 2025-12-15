@@ -17381,6 +17381,17 @@
 		(uuid "fec761f4-fd6e-4a2f-b19b-c8a0e02b906b")
 	)
 	(gr_rect
+		(start 185.5 59.5)
+		(end 195.5 67.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "54af142e-4e88-462f-bad9-039ace9fc852")
+	)
+	(gr_rect
 		(start 99 81)
 		(end 124 116)
 		(stroke
