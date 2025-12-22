@@ -9333,28 +9333,6 @@
 			)
 		)
 	)
-	(global_label "MOSFET_source"
-		(shape input)
-		(at 33.02 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7dbe399-807d-42d9-b30e-50b82f751bec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.5811 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL_BNO085"
 		(shape bidirectional)
 		(at 54.61 210.82 180)
@@ -9790,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 294.64 131.572 90)
 			(effects
 				(font
@@ -10049,7 +10027,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "067e0be5-4ac6-4d51-8f47-eae3c003d3e5")
 		(property "Reference" "#PWR07"
 			(at 49.53 43.18 0)
@@ -10061,7 +10038,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 40.64 43.18 0)
+			(at 40.64 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,7 +10103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1uF"
 			(at 123.19 237.4962 0)
 			(effects
 				(font
@@ -10391,14 +10368,14 @@
 		(dnp no)
 		(uuid "1519d1bd-d1af-4280-b7fd-847057508f2d")
 		(property "Reference" "R3"
-			(at 120.904 241.3 90)
+			(at 121.92 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 118.618 243.586 90)
 			(effects
 				(font
@@ -10597,8 +10574,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 125.476 230.124 90)
+		(property "Value" "10k"
+			(at 119.126 232.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,8 +11878,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 124.968 227.33 90)
+		(property "Value" "10k"
+			(at 120.142 226.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12438,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3.3k"
 			(at 82.55 50.038 90)
 			(effects
 				(font
@@ -12690,7 +12667,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 200.66 99.822 90)
 			(effects
 				(font
@@ -14749,7 +14726,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 281.432 147.32 90)
 			(effects
 				(font
@@ -15483,7 +15460,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 23.622 120.65 90)
 			(effects
 				(font
@@ -15553,7 +15530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "MS621"
 			(at 256.794 57.912 90)
 			(effects
 				(font
@@ -15754,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 354.33 200.152 90)
 			(effects
 				(font
@@ -15948,6 +15925,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 109.22 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "971e22a9-d72b-4775-b0e8-53f60ed4ed2c")
+		(property "Reference" "#PWR09"
+			(at 26.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b7ea7dd-8897-4fc1-b078-7076eb61229b")
+		)
+		(instances
+			(project "26proto"
+				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 288.29 149.86 180)
 		(unit 1)
@@ -15964,7 +16007,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 289.56 152.908 90)
 			(effects
 				(font
@@ -16235,7 +16278,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 278.638 187.96 90)
 			(effects
 				(font
@@ -17113,7 +17156,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2703aa7-e687-4a87-89b8-0c810c6fa299")
 		(property "Reference" "#PWR06"
 			(at 49.53 40.64 0)
@@ -17125,7 +17167,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 40.64 40.64 0)
+			(at 40.64 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17319,7 +17361,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3.3k"
 			(at 85.09 43.942 90)
 			(effects
 				(font
@@ -17452,7 +17494,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3k"
 			(at 272.542 194.31 90)
 			(effects
 				(font
@@ -18558,7 +18600,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 135.128 250.19 90)
 			(effects
 				(font
@@ -18780,7 +18822,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 272.542 191.77 90)
 			(effects
 				(font
