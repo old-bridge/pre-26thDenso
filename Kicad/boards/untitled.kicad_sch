@@ -1254,198 +1254,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:Adafruit_DPS310"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U10"
-				(at -17.272 5.334 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Adafruit DPS310"
-				(at -14.732 12.192 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Adafruit_DPS310_0_1"
-				(rectangle
-					(start -12.7 8.89)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Adafruit_DPS310_1_1"
-				(pin bidirectional line
-					(at -10.16 11.43 270)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 11.43 270)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 11.43 270)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 11.43 270)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 11.43 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 11.43 270)
-					(length 2.54)
-					(name "3Vo"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 11.43 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD"
 			(pin_names
 				(offset 1.016)
@@ -2591,6 +2399,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1. airdata"
+		(exclude_from_sim no)
+		(at 211.328 173.736 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "5e819f7a-a041-43bd-b0bb-1b7163ec0241")
+	)
+	(junction
+		(at 62.23 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fb7b7c6-58cc-4cac-9ab5-cfe9bb6b8b9b")
+	)
 	(junction
 		(at 132.08 97.79)
 		(diameter 0)
@@ -2616,12 +2440,6 @@
 		(uuid "99b6d8e1-acff-47bb-9794-8f1f0fd06384")
 	)
 	(junction
-		(at 62.23 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae74b3d8-a024-4ef9-be10-82633b8a04ca")
-	)
-	(junction
 		(at 129.54 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2638,10 +2456,6 @@
 	(no_connect
 		(at 110.49 137.16)
 		(uuid "4d255ade-fdf5-434c-8dd3-4b44f4ef3596")
-	)
-	(no_connect
-		(at 152.4 135.89)
-		(uuid "4d65d8a6-53c8-4d0a-9cc6-c290fe97eb44")
 	)
 	(no_connect
 		(at 152.4 72.39)
@@ -2682,16 +2496,6 @@
 	(no_connect
 		(at 110.49 172.72)
 		(uuid "ed048b13-8a22-4d5e-949b-911ae7e7ab1a")
-	)
-	(wire
-		(pts
-			(xy 139.7 146.05) (xy 152.4 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b2fd115-f5cd-448e-bdce-5116ce2ed8e2")
 	)
 	(wire
 		(pts
@@ -2772,6 +2576,16 @@
 			(type default)
 		)
 		(uuid "4e1e8a66-b3d5-4f43-ab40-d6d96cce8f8b")
+	)
+	(wire
+		(pts
+			(xy 54.61 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ea0964-cdea-4d71-85b4-0ab52c5675d5")
 	)
 	(wire
 		(pts
@@ -2862,16 +2676,6 @@
 			(type default)
 		)
 		(uuid "a398aeba-dd09-4f75-ba94-ed916dca97b3")
-	)
-	(wire
-		(pts
-			(xy 139.7 140.97) (xy 152.4 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a619227d-3ae4-4b8b-8388-f9de787bbdec")
 	)
 	(wire
 		(pts
@@ -3100,17 +2904,6 @@
 		)
 		(uuid "2a9391f6-7b4e-4250-af15-2f9823912dbc")
 	)
-	(hierarchical_label "SDA"
-		(shape input)
-		(at 152.4 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f63b15a-681b-42c0-873e-a0fe12af875a")
-	)
 	(hierarchical_label "RS485_B"
 		(shape passive)
 		(at 66.04 134.62 180)
@@ -3165,17 +2958,6 @@
 			(justify right)
 		)
 		(uuid "70a3753f-7e0f-44ef-86fc-d40c11a3b2e5")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 152.4 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72f981e0-2281-41af-a160-f105c6b18c1b")
 	)
 	(hierarchical_label "SDA_soft"
 		(shape input)
@@ -3673,73 +3455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 58.42 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "197b346e-9971-4bed-9d69-a82cd7fa7fda")
-		(property "Reference" "R28"
-			(at 58.42 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 55.372 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 58.42 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4946297-3359-4a55-83e8-acd45173f982")
-		)
-		(pin "2"
-			(uuid "803c8bcb-c4aa-4503-b28f-d086ea17a25f")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 100.33 90)
 		(unit 1)
@@ -3799,90 +3514,6 @@
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:Adafruit_DPS310")
-		(at 163.83 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "232fc2be-6943-4581-9879-513ddfec8677")
-		(property "Reference" "DPS311"
-			(at 156.21 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Adafruit DPS310"
-			(at 152.654 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 163.83 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79065823-a1bd-46e8-afd2-44f6cc9f1994")
-		)
-		(pin "7"
-			(uuid "acdf78f6-7880-461b-a85c-43f8e1bedc8d")
-		)
-		(pin "3"
-			(uuid "d5f85c04-31c9-4b3a-8bd9-cbfe82d2acfb")
-		)
-		(pin "6"
-			(uuid "37086546-fa4d-43e9-abd9-9e7cec2412e8")
-		)
-		(pin "4"
-			(uuid "1b4f46c4-74a7-4ac9-b6c1-a1e0b697e374")
-		)
-		(pin "5"
-			(uuid "88bad233-938f-4893-a705-5840cfb03cfb")
-		)
-		(pin "1"
-			(uuid "89c2a235-ee6e-4a6e-976c-3cd9bd95c25b")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "DPS311")
 					(unit 1)
 				)
 			)
@@ -4436,72 +4067,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7718ad76-f95b-493f-a6e0-4e64c52f3ab1")
-		(property "Reference" "#PWR0110"
-			(at 156.21 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 148.59 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ceceacb0-cf41-47fd-bee4-34f73d0b021a")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 152.4 60.96 270)
 		(mirror x)
 		(unit 1)
@@ -4562,71 +4127,6 @@
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83689c99-8f48-4097-8697-702e9f97ed48")
-		(property "Reference" "#PWR0104"
-			(at 133.35 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.128 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dff83218-6b70-4431-88ba-abd1e8b8f7bb")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4715,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 52.578 110.49 90)
 			(effects
 				(font
@@ -5822,71 +5322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7d0db6e-330b-4f08-9849-c56bdce36ba2")
-		(property "Reference" "#PWR0105"
-			(at 133.35 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.128 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a57df188-501e-49c8-baa5-370a2be52536")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD")
 		(at 132.08 64.77 0)
 		(unit 1)
@@ -6144,72 +5579,6 @@
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 152.4 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f268b356-424d-4d59-b965-a3f69dbd70ce")
-		(property "Reference" "#PWR0111"
-			(at 156.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 148.59 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee08c746-07fb-4737-8813-86fa7039f485")
-		)
-		(instances
-			(project "26proto"
-				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/b180609e-b288-4aa4-9dbc-4457c1dfdefc"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

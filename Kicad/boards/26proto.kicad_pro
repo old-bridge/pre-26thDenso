@@ -672,6 +672,14 @@
     [
       "b180609e-b288-4aa4-9dbc-4457c1dfdefc",
       "1. airdata"
+    ],
+    [
+      "47c50de7-cf46-4b0d-a5de-9fa9c1508189",
+      "2.logger"
+    ],
+    [
+      "74d66bd8-4df7-47b8-ae0c-e0422dfba958",
+      "3. TFT"
     ]
   ],
   "text_variables": {}
