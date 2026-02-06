@@ -5772,10 +5772,6 @@
 		(uuid "cb047976-746b-4a58-bd8e-fa9438482d15")
 	)
 	(no_connect
-		(at 100.33 59.69)
-		(uuid "d5732ede-9820-4422-abbb-67ec7d742860")
-	)
-	(no_connect
 		(at 226.06 125.73)
 		(uuid "da5a8dc5-af97-44f5-b67e-edfe0e45af9e")
 	)
@@ -6501,6 +6497,17 @@
 			(justify left)
 		)
 		(uuid "4e56edad-67c2-45aa-9c29-261e6b5ff398")
+	)
+	(hierarchical_label "Speaker"
+		(shape input)
+		(at 100.33 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ee3a1be-30f5-4d4b-afe9-7c15d1482b9e")
 	)
 	(hierarchical_label "RS485_A"
 		(shape input)
@@ -7814,6 +7821,72 @@
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/74d66bd8-4df7-47b8-ae0c-e0422dfba958"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 113.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37a92ddc-4bfc-4e5b-968e-076510921848")
+		(property "Reference" "#PWR047"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e7b1f4-0b55-486c-be6c-09d91d99515f")
+		)
+		(instances
+			(project "26proto"
+				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/74d66bd8-4df7-47b8-ae0c-e0422dfba958"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9865,6 +9938,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 113.03 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9476c93b-0056-4459-85ec-665e0db03af0")
+		(property "Reference" "#PWR041"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feaabf4b-9a9d-41a2-b39f-d26b1bbc48a2")
+		)
+		(instances
+			(project "26proto"
+				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/74d66bd8-4df7-47b8-ae0c-e0422dfba958"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 201.93 129.54 0)
 		(unit 1)
@@ -10730,6 +10868,79 @@
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/74d66bd8-4df7-47b8-ae0c-e0422dfba958"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 118.11 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc98d4ee-4aee-4405-936f-73b8b39e4d4e")
+		(property "Reference" "J13"
+			(at 120.65 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03 servo"
+			(at 120.65 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e018b56b-02c4-4be0-af18-31af386662b4")
+		)
+		(pin "1"
+			(uuid "82dbc14c-a119-401e-ad5a-c4faf0ce0840")
+		)
+		(pin "2"
+			(uuid "b3568db9-6aa6-4323-b2b3-5f3146e7ed3b")
+		)
+		(instances
+			(project "26proto"
+				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475/74d66bd8-4df7-47b8-ae0c-e0422dfba958"
+					(reference "J13")
 					(unit 1)
 				)
 			)
