@@ -496,9 +496,23 @@
         "wire_width": 6
       },
       {
-        "name": "GND",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "0.5mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -509,8 +523,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "encoder_cathode"
+        "netclass": "0.5mm",
+        "pattern": ""
+      },
+      {
+        "netclass": "0.5mm",
+        "pattern": "+3.3V"
       }
     ]
   },
@@ -519,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../OneDrive - OUMail (Osaka University)/アルバ使えそうな写真/",
+      "plot": "../../../../Onedrive/OneDrive - OUMail (The University of Osaka)/なんでも/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../OneDrive/デスクトップ/3Dモデル/26proto.step",
@@ -653,8 +671,16 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "../../../../../OneDrive - OUMail (Osaka University)/アルバ使えそうな写真/",
+    "plot_directory": "../../../../Onedrive/OneDrive - OUMail (The University of Osaka)/なんでも/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
