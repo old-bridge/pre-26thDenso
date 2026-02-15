@@ -58,6 +58,10 @@
 		(uuid "452bc5bd-17c9-4c9f-b663-99bd989660e8")
 	)
 	(no_connect
+		(at 123.19 157.48)
+		(uuid "4ba07413-8a8f-4f31-bf6d-6d5201d9a398")
+	)
+	(no_connect
 		(at 54.61 86.36)
 		(uuid "50344116-936b-493a-960d-91378089a117")
 	)
@@ -68,6 +72,10 @@
 	(no_connect
 		(at 69.85 38.1)
 		(uuid "5408c0b7-7ebf-4f48-93e3-3ac590701bbb")
+	)
+	(no_connect
+		(at 99.06 66.04)
+		(uuid "54c74bb8-13d8-40a7-8dc1-5b9181b71d5a")
 	)
 	(no_connect
 		(at 232.41 81.28)
@@ -82,16 +90,16 @@
 		(uuid "6464e62f-7bb5-42f2-9a78-edd10fda50dd")
 	)
 	(no_connect
-		(at 77.47 38.1)
-		(uuid "6d021edd-0f09-4099-b443-77fcf7a4de17")
-	)
-	(no_connect
 		(at 44.45 86.36)
 		(uuid "7ec4ee62-20bf-4c9e-a647-6dbec927a35e")
 	)
 	(no_connect
 		(at 57.15 38.1)
 		(uuid "85b256cd-4f3f-42c6-805d-f43418a74284")
+	)
+	(no_connect
+		(at 232.41 118.11)
+		(uuid "91afc98f-9802-44d9-8a53-fb38edf184ac")
 	)
 	(no_connect
 		(at 232.41 53.34)
@@ -293,6 +301,16 @@
 				(justify left)
 			)
 		)
+		(pin "V_check-2" input
+			(at 123.19 157.48 0)
+			(uuid "32948ff7-dfda-45ab-9721-7461cf249811")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "26proto"
 				(path "/493bec57-bd9f-4f18-b3ef-0d7a091ad475"
@@ -378,16 +396,6 @@
 		(pin "Pot_rud" input
 			(at 69.85 38.1 90)
 			(uuid "45889b2a-d75a-494b-bf22-f4dc54a01ac3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Pot_trim" input
-			(at 77.47 38.1 90)
-			(uuid "462d0c43-65a4-4fbf-a322-fcc81105c8b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,6 +531,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "V_check-3" input
+			(at 99.06 66.04 0)
+			(uuid "94f8ead9-8677-4cd2-ba6b-cb1161c7c0fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -690,6 +708,16 @@
 		(pin "SDA_soft" input
 			(at 232.41 43.18 180)
 			(uuid "829d5a70-fdeb-4b5b-b7c6-9cb3585fcc05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_check-1" input
+			(at 232.41 118.11 180)
+			(uuid "142e1a53-5e6b-46ec-8595-7542f0c76d83")
 			(effects
 				(font
 					(size 1.27 1.27)
